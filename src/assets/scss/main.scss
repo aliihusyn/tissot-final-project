@@ -3,3 +3,16 @@
 
 // Components
 @import "./components/header";
+@import "./components/footer";
+@import "./components/button";
+@import "./components/cartCard";
+@import "./components/input";
+
+//pages
+@import "./pages/home";
+@import "./pages/product";
+@import "../scss/pages/singleProduct";
+@import "../scss/pages/cart";
+@import "./pages/notFound";
+@import "./pages/register";
+@import "./pages/login";

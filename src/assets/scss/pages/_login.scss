@@ -1,0 +1,94 @@
+.login {
+  padding: 0 15px;
+  .container {
+    .login-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 15px;
+      .section-title {
+        margin: 40px 0 15px;
+        h2 {
+          color: #000;
+          font-family: Heebo;
+          font-weight: 700;
+          font-size: 40px;
+          letter-spacing: 1px;
+          line-height: 1.25em;
+          text-transform: uppercase;
+        }
+      }
+      .row {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        .left-login {
+          padding-right: 5%;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          flex-shrink: 1;
+          h2 {
+            color: #000;
+            font-family: Heebo;
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: 2px;
+            line-height: 1.44em;
+            text-transform: uppercase;
+            margin: 15px 0 10px;
+          }
+          .form-control {
+            display: flex;
+            flex-direction: column;
+            .formInp {
+              max-width: 375px;
+              margin-bottom: 30px;
+            }
+            .login-btn {
+              width: 120px;
+              &:hover {
+                color: #fffefe;
+                background: linear-gradient(
+                  90deg,
+                  #93291e 0,
+                  #e32119 75%,
+                  #e32119
+                );
+              }
+            }
+          }
+        }
+        .right-register {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          flex-shrink: 1;
+          border-left: 1px solid #cdcdcd;
+          padding-left: 5%;
+          h2 {
+            color: #000;
+            font-family: Heebo;
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: 2px;
+            line-height: 1.44em;
+            text-transform: uppercase;
+            margin: 15px 0 10px;
+          }
+          .info {
+            max-width: 373px;
+            padding: 40px 0;
+            color: #252525;
+            font-family: Heebo;
+            font-size: 1.125em;
+            font-weight: 300;
+            line-height: 1.66em;
+          }
+        }
+      }
+    }
+  }
+}

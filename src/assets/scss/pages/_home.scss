@@ -1,0 +1,1553 @@
+.video-section {
+  position: relative;
+  z-index: -10;
+  top: -150px;
+  padding-bottom: 30px;
+  .bgVideo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 0;
+  }
+  .video-background-content {
+    bottom: 157px;
+    left: 50px;
+    position: absolute;
+    right: 30px;
+    .video-background-title {
+      display: block;
+      font-weight: 700;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 1px;
+      line-height: 1.175em;
+      text-transform: uppercase;
+      font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+    }
+    .video-bg-btn {
+      width: 132px;
+      cursor: pointer;
+      &:hover {
+        color: #fffefe;
+        background: linear-gradient(90deg, #93291e 0, #e32119 75%, #e32119);
+      }
+    }
+  }
+}
+
+.promotions {
+  position: relative;
+  top: -150px;
+  padding-top: 30px;
+  .container {
+    .promotions-title {
+      h2 {
+        font-size: 40px;
+        color: #000;
+        font-family: Heebo;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1.175em;
+        margin-bottom: 20px;
+      }
+    }
+    .promotions-row {
+      display: flex;
+      flex-wrap: wrap;
+
+      .contentbox-left {
+        padding: 0 5px;
+        align-items: stretch;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        flex-basis: 66%;
+        max-width: 66%;
+        img {
+          display: block;
+          object-fit: cover;
+          height: 100%;
+          margin: auto;
+          width: 100%;
+          max-width: 100%;
+          transition: all 0.5s ease;
+          &:hover {
+            transform: scale(1.02);
+            transition: all 0.5s ease;
+          }
+        }
+      }
+      .contentbox-right {
+        padding: 0 5px;
+        overflow: hidden;
+        flex-basis: 33%;
+        max-width: 33%;
+
+        img {
+          display: block;
+          object-fit: cover;
+          height: 100%;
+          margin: auto;
+          width: 100%;
+          max-width: 100%;
+          transition: all 0.5s ease;
+
+          &:hover {
+            transform: scale(1.02);
+            transition: all 0.5s ease;
+          }
+        }
+      }
+    }
+    .promotions-btn-box {
+      display: flex;
+      justify-content: center;
+      .promotions-btn {
+        width: 132px;
+        &:hover {
+          color: #fffefe;
+          background: linear-gradient(90deg, #93291e 0, #e32119 75%, #e32119);
+        }
+      }
+    }
+  }
+}
+
+.man-watches {
+  position: relative;
+  top: -50px;
+  .container {
+    .man-watches-row {
+      width: 100%;
+      display: flex;
+      .man-watches-left {
+        width: 50%;
+        position: relative;
+        padding: 0 10px;
+        img {
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+          display: block;
+        }
+        .cover-description {
+          position: absolute;
+          top: 0;
+          padding-top: 50px;
+          width: 100%;
+          text-align: center;
+          h2 {
+            display: block;
+            color: #fff;
+            font-family: Heebo;
+            margin: 25px 0;
+            font-size: 40px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 18.8px;
+            text-transform: uppercase;
+          }
+          .man-watches-btn {
+            width: 132px;
+            &:hover {
+              color: #fffefe;
+              background: linear-gradient(
+                90deg,
+                #93291e 0,
+                #e32119 75%,
+                #e32119
+              );
+            }
+          }
+        }
+      }
+      .man-watches-right {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 45px;
+        .watch-img-content {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          width: auto;
+          cursor: pointer;
+          margin: 0 10px;
+          width: calc(50% - 20px);
+          img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            transform: scale(1);
+            transition: all 0.2s ease;
+          }
+          .watch-info {
+            text-align: center;
+            padding: 15px 20px 0;
+            display: block;
+            position: relative;
+            .watch-title {
+              margin: 15px 0 3px 0;
+              font-size: 18px;
+              font-weight: 500;
+              letter-spacing: 0.05em;
+              text-align: center;
+              text-transform: uppercase;
+              font-family: Heebo;
+              color: #252525;
+            }
+            .watch-technical-badge {
+              margin-bottom: 10px;
+              font-family: Heebo;
+              font-size: 12.8px;
+              font-weight: 400;
+              line-height: 19px;
+              color: #252525;
+            }
+          }
+          &:hover {
+            img {
+              transform: scale(1.03);
+              transition: all 0.2s ease;
+            }
+            .watch-info {
+              .watch-title {
+                color: #e32119;
+                transition: all 0.2 ease;
+              }
+              .watch-technical-badge {
+                color: #e32119;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.woman-watches {
+  position: relative;
+  padding-top: 40px;
+  margin-bottom: 90px;
+  .container {
+    .woman-watches-row {
+      width: 100%;
+      display: flex;
+      .woman-watches-left {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 45px;
+        .watch-img-content {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          width: auto;
+          cursor: pointer;
+          margin: 0 10px;
+          width: calc(50% - 20px);
+          img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            transform: scale(1);
+            transition: all 0.2s;
+            &:hover {
+              transform: scale(1.03);
+            }
+          }
+          .watch-info {
+            text-align: center;
+            padding: 15px 20px 0;
+            display: block;
+            position: relative;
+            .watch-title {
+              margin: 15px 0 3px 0;
+              font-size: 18px;
+              font-weight: 500;
+              letter-spacing: 0.05em;
+              text-align: center;
+              text-transform: uppercase;
+              font-family: Heebo;
+              color: #252525;
+            }
+            .watch-technical-badge {
+              margin-bottom: 10px;
+              font-family: Heebo;
+              font-size: 12.8px;
+              font-weight: 400;
+              line-height: 19px;
+              color: #252525;
+            }
+          }
+          &:hover {
+            img {
+              transform: scale(1.03);
+            }
+            .watch-info {
+              .watch-title {
+                color: #e32119;
+                transition: all 0.2 ease;
+              }
+              .watch-technical-badge {
+                color: #e32119;
+              }
+            }
+          }
+        }
+      }
+      .woman-watches-right {
+        width: 50%;
+        position: relative;
+        padding: 0 10px;
+        img {
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+          display: block;
+        }
+        .cover-description {
+          position: absolute;
+          top: 0;
+          padding-top: 50px;
+          width: 100%;
+          text-align: center;
+          h2 {
+            display: block;
+            color: #fff;
+            font-family: Heebo;
+            margin: 25px 0;
+            font-size: 40px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 18.8px;
+            text-transform: uppercase;
+          }
+          .woman-watches-btn {
+            width: 132px;
+            &:hover {
+              color: #fffefe;
+              background: linear-gradient(
+                90deg,
+                #93291e 0,
+                #e32119 75%,
+                #e32119
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.categories-carusel {
+  padding: 40px 0;
+  margin: 30px 0;
+  .container {
+    .categories-carusel-title {
+      text-align: center;
+      h2 {
+        color: #000;
+        font-family: Heebo;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1.175em;
+        font-size: 40px;
+        margin-top: 2.5rem;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+      }
+    }
+    .categories-swiper {
+      .swiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              transition: all 0.5s ease;
+              &:hover {
+                transform: scale(1.03);
+                transition: all 0.5s ease;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.gift-finder {
+  padding: 40px 0;
+  .container {
+    .gift-row {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      padding: 40px 0;
+      width: 100%;
+      .gift-left {
+        padding-right: 20px;
+        width: 50%;
+        margin: 0 5px;
+        img {
+          display: block;
+          height: auto;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .gift-right {
+        display: block;
+        padding-left: 110px;
+        margin: 0 5px;
+        width: calc(50% - 10px);
+        text-align: left;
+        .gift-content {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            font-size: 35px;
+            margin: 25px 0 15px 0;
+            color: #000;
+            font-family: Heebo;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            text-align: left;
+          }
+          .gift-content-text {
+            text-align: justify;
+            p {
+              margin-bottom: 10px;
+              color: #252525;
+              font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 30px;
+            }
+          }
+          .gift-content-button {
+            .gift-btn {
+              padding: 12px 30px;
+              &:hover {
+                color: #fffefe;
+                background: linear-gradient(
+                  90deg,
+                  #93291e 0,
+                  #e32119 75%,
+                  #e32119
+                );
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.register-watches {
+  padding: 40px 0;
+  .container {
+    .register-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .register-left {
+        display: block;
+        padding-right: 110px;
+        margin: 0 5px;
+        width: calc(50% - 10px);
+        text-align: left;
+        .register-content {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            font-size: 35px;
+            margin: 25px 0 15px 0;
+            color: #000;
+            font-family: Heebo;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            text-align: left;
+            width: 500px;
+          }
+          .register-content-text {
+            text-align: justify;
+            p {
+              margin-bottom: 10px;
+              color: #252525;
+              font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 30px;
+            }
+          }
+          .register-btn {
+            &:hover {
+              color: #fffefe;
+              background: linear-gradient(
+                90deg,
+                #93291e 0,
+                #e32119 75%,
+                #e32119
+              );
+            }
+          }
+        }
+      }
+      .register-right {
+        padding-left: 20px;
+        width: 50%;
+        margin: 0 5px;
+        img {
+          display: block;
+          height: auto;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.damian-section {
+  padding: 40px 0;
+  .container {
+    .damian-section-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .damian-section-left {
+        padding-right: 20px;
+        width: 50%;
+        margin: 0 5px;
+        img {
+          display: block;
+          height: auto;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .damian-section-right {
+        display: block;
+        padding-left: 110px;
+        margin: 0 5px;
+        width: calc(50% - 10px);
+        text-align: left;
+        .damian-section-content {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            font-size: 35px;
+            margin: 25px 0 15px 0;
+            color: #000;
+            font-family: Heebo;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            text-align: left;
+          }
+          .damian-content-text {
+            text-align: justify;
+            p {
+              margin-bottom: 10px;
+              color: #252525;
+              font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.primoz-section {
+  padding: 40px 0;
+  .container {
+    .primoz-section-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .primoz-section-left {
+        display: block;
+        padding-right: 110px;
+        margin: 0 5px;
+        width: calc(50% - 10px);
+        text-align: left;
+        .primoz-section-content {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            font-size: 35px;
+            margin: 25px 0 15px 0;
+            color: #000;
+            font-family: Heebo;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            text-align: left;
+          }
+          .primoz-content-text {
+            text-align: justify;
+            p {
+              margin-bottom: 10px;
+              color: #252525;
+              font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+      .primoz-section-right {
+        padding-left: 20px;
+        width: 50%;
+        margin: 0 5px;
+        img {
+          display: block;
+          height: auto;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.novelties-slider {
+  margin: 105px 0 50px 0;
+  .container {
+    .novelties-row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .novelties-title {
+        h2 {
+          margin: 15px 0 35px 0;
+          color: #000;
+          font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+          font-size: 40px;
+          font-weight: 300;
+          letter-spacing: 1px;
+          line-height: 19px;
+          text-transform: uppercase;
+        }
+      }
+      .home-swiper {
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+        margin-bottom: 40px;
+        .swiper {
+          .swiper-wrapper {
+            .swiper-slide {
+              img {
+                background-color: #f6f6f6;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all 0.5s ease;
+                &:hover {
+                  transform: scale(1.03);
+                  transition: all 0.5s ease;
+                }
+              }
+              .watch-info {
+                text-align: center;
+                padding: 15px 20px 0;
+                display: block;
+                position: relative;
+                .watch-title {
+                  margin: 15px 0 3px 0;
+                  font-size: 18px;
+                  font-weight: 500;
+                  letter-spacing: 0.05em;
+                  text-align: center;
+                  text-transform: uppercase;
+                  font-family: Heebo;
+                  color: #252525;
+                }
+                .watch-technical-badge {
+                  margin-bottom: 10px;
+                  font-family: Heebo;
+                  font-size: 12.8px;
+                  font-weight: 400;
+                  line-height: 19px;
+                  color: #252525;
+                }
+                &:hover {
+                  .watch-title {
+                    color: #dc1f18;
+                  }
+                  .watch-technical-badge {
+                    color: #dc1f18;
+                  }
+                }
+              }
+            }
+          }
+          .swiper-button-prev,
+          .swiper-button-next {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: #93291e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &::after {
+              // display: none;
+              font-size: 8px;
+              color: #fff;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+      .novelties-button {
+        .novelties-btn {
+          &:hover {
+            color: #fffefe;
+            background: linear-gradient(90deg, #93291e 0, #e32119 75%, #e32119);
+          }
+        }
+      }
+    }
+  }
+}
+
+.news {
+  padding-bottom: 70px;
+  .container {
+    .news-row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .news-contents {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 65px;
+        .news-content {
+          width: 25%;
+          margin-right: 10px;
+          cursor: pointer;
+          overflow: hidden;
+          transition: all 0.3s ease;
+          img {
+            max-width: 100%;
+            max-height: 100%;
+            transition: all 0.2s ease;
+          }
+          &:hover {
+            transition: all 0.2s ease;
+
+            img {
+              transform: scale(1.02);
+              overflow: hidden;
+              transition: all 0.3s ease;
+            }
+            .news-info {
+              .news-title {
+                color: #dc1f18;
+              }
+            }
+          }
+          .news-info {
+            .news-title {
+              font-size: 16px;
+              font-weight: 500;
+              letter-spacing: 0.8px;
+              text-transform: uppercase;
+              line-height: 17px;
+              margin-top: 15px;
+              color: #000;
+              font-family: Heebo;
+            }
+            .news-date {
+              font-weight: 300;
+              font-size: 16px;
+              letter-spacing: 0.8px;
+              line-height: 17px;
+              font-family: Heebo;
+              margin-bottom: 10px;
+              color: #252525;
+            }
+            .news-text {
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              display: -webkit-box;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: pre-wrap;
+              color: #252525;
+              font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+      .news-button {
+        .news-btn {
+          &:hover {
+            color: #fffefe;
+            background: linear-gradient(90deg, #93291e 0, #e32119 75%, #e32119);
+          }
+        }
+      }
+    }
+  }
+}
+
+.location-service {
+  .location-service-row {
+    display: flex;
+    height: 430px;
+    .location {
+      width: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../../images/home/location/bg-store-locator.avif);
+      .content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        h2 {
+          font-size: 40px;
+          font-weight: 300;
+          letter-spacing: 1px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: #000;
+          font-family: Heebo;
+          margin: 25px 0 20px;
+        }
+        .location-button {
+          .location-btn {
+            width: 210px;
+            &:hover {
+              color: #fffefe;
+              background: linear-gradient(
+                90deg,
+                #93291e 0,
+                #e32119 75%,
+                #e32119
+              );
+            }
+          }
+        }
+      }
+    }
+    .service {
+      width: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../../images/home/location/bg-customer-service.avif);
+      .content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        h2 {
+          font-size: 40px;
+          font-weight: 300;
+          letter-spacing: 1px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: #fff;
+          font-family: Heebo;
+          margin: 25px 0 20px;
+        }
+        .service-button {
+          .service-btn {
+            width: 210px;
+            &:hover {
+              color: #fffefe;
+              background: linear-gradient(
+                90deg,
+                #93291e 0,
+                #e32119 75%,
+                #e32119
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.join-section {
+  background-color: #4f4f4f;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  .container {
+    .join-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        margin: 25px 0 20px;
+        font-size: 40px;
+        font-family: Heebo;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1.175em;
+        text-transform: uppercase;
+      }
+      .join-content {
+        h6 {
+          margin-bottom: 10px;
+          color: #fff;
+          text-align: center;
+          font-family: Heebo;
+          font-size: 16px;
+          line-height: 1.66;
+          font-weight: 400;
+        }
+        .join-form {
+          width: 750px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px auto 30px;
+          .form-control {
+            width: 80%;
+            position: relative;
+            .join-label {
+              position: absolute;
+              left: 10px;
+              top: 19px;
+              font-weight: 300;
+              font-family: Heebo;
+              color: #757575;
+              transition: 0.3s ease;
+              font-size: 18px;
+              &.active-label {
+                top: -11px;
+                color: #fff;
+                font-size: 10px;
+              }
+            }
+
+            input {
+              transition: all 0.3s ease;
+              background: #fff;
+              border: 1px solid rgba(0, 0, 0, 0.2);
+              color: #252525;
+              filter: none;
+              font-size: 26px;
+              font-weight: 300;
+              height: 56px;
+              padding: 0 10px 0 15px;
+              width: 100%;
+              border-radius: 1px;
+              box-sizing: border-box;
+              font-family: Open Sans, Helvetica Neue, Helvetica, Arial,
+                sans-serif;
+              outline: none;
+              line-height: 1.42857;
+              vertical-align: baseline;
+              &:focus {
+                border: 1px dashed #dc1f18;
+              }
+            }
+          }
+          .join-button {
+            .join-btn {
+              height: 56px;
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//1024px
+@media (max-width: 1024px) {
+  .video-section {
+    .video-background-content {
+      bottom: 120px;
+      .video-background-title {
+        font-size: 35px;
+      }
+    }
+  }
+  .location-service {
+    .location-service-row {
+      height: 300px;
+      .location,
+      .service {
+        .content-box {
+          h2 {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//1279px
+@media (max-width: 1279px) {
+  .gift-finder {
+    .container {
+      .gift-row {
+        .gift-right {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  .register-watches {
+    .container {
+      .register-row {
+        .register-left {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .damian-section {
+    .container {
+      .damian-section-row {
+        .damian-section-right {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .primoz-section {
+    .container {
+      .primoz-section-row {
+        .primoz-section-left {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+//768px
+@media (max-width: 768px) {
+  .video-section {
+    .video-background-content {
+      bottom: 100px;
+      .video-background-title {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .promotions {
+    .container {
+      .promotions-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .contentbox-left {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+        .contentbox-right {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  .man-watches {
+    .container {
+      .man-watches-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .man-watches-left {
+          width: 100%;
+        }
+        .man-watches-right {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  .woman-watches {
+    .container {
+      .woman-watches-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+        .woman-watches-left {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-right: 0;
+        }
+        .woman-watches-right {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .gift-finder {
+    padding: 40px 0;
+    .container {
+      .gift-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .gift-left {
+          padding-right: 0;
+          width: 100%;
+        }
+        .gift-right {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .categories-carusel {
+    padding: 40px 0;
+    margin: 30px 0;
+    .container {
+      .categories-carusel-title {
+        text-align: center;
+        h2 {
+          color: #000;
+          font-family: Heebo;
+          font-weight: 300;
+          letter-spacing: 1px;
+          line-height: 1.175em;
+          font-size: 40px;
+          margin-top: 2.5rem;
+          margin-bottom: 35px;
+          text-transform: uppercase;
+        }
+      }
+      .categories-swiper {
+        .swiper {
+          .swiper-wrapper {
+            .swiper-slide {
+              img {
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+                transition: all 0.5s ease;
+                &:hover {
+                  transform: scale(1.03);
+                  transition: all 0.5s ease;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .register-watches {
+    padding: 40px 0;
+    .container {
+      .register-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        .register-left {
+          width: 100%;
+        }
+        .register-right {
+          padding-left: 0px;
+          width: 100%;
+          img {
+            height: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .damian-section {
+    padding: 40px 0;
+    .container {
+      .damian-section-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        .damian-section-left {
+          padding-right: 0px;
+          width: 100%;
+        }
+        .damian-section-right {
+          padding-left: 0px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .primoz-section {
+    padding: 40px 0;
+    .container {
+      .primoz-section-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        .primoz-section-left {
+          padding-right: 0px;
+          width: 100%;
+        }
+        .primoz-section-right {
+          padding-left: 0px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+//540px
+@media (max-width: 540px) {
+  .video-section {
+    top: 0px;
+    padding-bottom: 0px;
+    .video-background-content {
+      bottom: 30px;
+      left: 20px;
+      .video-background-title {
+        font-size: 17px;
+      }
+      .video-bg-btn {
+        width: 100px;
+        height: 30px;
+        padding: 0;
+      }
+    }
+  }
+  .promotions {
+    top: 0px;
+    padding-top: 30px;
+    .container {
+      .promotions-title {
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .promotions-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .contentbox-left {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+        .contentbox-right {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .promotions-btn-box {
+        display: flex;
+        justify-content: center;
+        .promotions-btn {
+          width: 100px;
+          height: 30px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .man-watches {
+    position: relative;
+    top: 0px;
+    padding-top: 30px;
+    .container {
+      .man-watches-row {
+        width: 100%;
+        display: flex;
+        .man-watches-left {
+          width: 100%;
+
+          img {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            display: block;
+          }
+          .cover-description {
+            position: absolute;
+            top: 0;
+            padding-top: 50px;
+            width: 100%;
+            text-align: center;
+            h2 {
+              display: block;
+              color: #fff;
+              font-family: Heebo;
+              margin: 25px 0;
+              font-size: 40px;
+              font-weight: 300;
+              letter-spacing: 1px;
+              line-height: 18.8px;
+              text-transform: uppercase;
+            }
+            .man-watches-btn {
+              width: 132px;
+              &:hover {
+                color: #fffefe;
+                background: linear-gradient(
+                  90deg,
+                  #93291e 0,
+                  #e32119 75%,
+                  #e32119
+                );
+              }
+            }
+          }
+        }
+        .man-watches-right {
+          width: 50%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 45px;
+          .watch-img-content {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            width: auto;
+            cursor: pointer;
+            margin: 0 10px;
+            width: calc(50% - 20px);
+            img {
+              width: 90%;
+              height: 90%;
+              object-fit: cover;
+              transform: scale(1);
+              transition: all 0.2s ease;
+            }
+            .watch-info {
+              text-align: center;
+              padding: 15px 20px 0;
+              display: block;
+              position: relative;
+              .watch-title {
+                margin: 15px 0 3px 0;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 0.05em;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Heebo;
+                color: #252525;
+              }
+              .watch-technical-badge {
+                margin-bottom: 10px;
+                font-family: Heebo;
+                font-size: 12.8px;
+                font-weight: 400;
+                line-height: 19px;
+                color: #252525;
+              }
+            }
+            &:hover {
+              img {
+                transform: scale(1.03);
+                transition: all 0.2s ease;
+              }
+              .watch-info {
+                .watch-title {
+                  color: #e32119;
+                  transition: all 0.2 ease;
+                }
+                .watch-technical-badge {
+                  color: #e32119;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//400px
+@media (max-width: 400px) {
+  .video-section {
+    top: 0px;
+    padding-bottom: 0px;
+    .video-background-content {
+      bottom: 30px;
+      left: 20px;
+      .video-background-title {
+        font-size: 17px;
+      }
+      .video-bg-btn {
+        width: 100px;
+        height: 30px;
+        padding: 0;
+      }
+    }
+  }
+  .promotions {
+    top: 0px;
+    padding-top: 30px;
+    .container {
+      .promotions-title {
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .promotions-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .contentbox-left {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+        .contentbox-right {
+          flex-basis: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      .promotions-btn-box {
+        display: flex;
+        justify-content: center;
+        .promotions-btn {
+          width: 100px;
+          height: 30px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .man-watches {
+    position: relative;
+    top: 0px;
+    padding-top: 30px;
+    .container {
+      .man-watches-row {
+        width: 100%;
+        display: flex;
+        .man-watches-left {
+          width: 100%;
+        }
+        .man-watches-right {
+          width: 100%;
+          padding-left: 0px;
+          .watch-img-content {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .woman-watches {
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 90px;
+    .container {
+      .woman-watches-row {
+        width: 100%;
+        display: flex;
+        .woman-watches-left {
+          width: 100%;
+
+          padding-right: 0px;
+          .watch-img-content {
+            width: 100%;
+          }
+        }
+        .woman-watches-right {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .news {
+    padding-bottom: 70px;
+    .container {
+      .news-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .news-contents {
+          flex-wrap: wrap;
+          width: 100%;
+          .news-content {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .location-service {
+    .location-service-row {
+      display: flex;
+      flex-wrap: wrap;
+      height: 430px;
+      .location {
+        width: 100%;
+      }
+      .service {
+        width: 100%;
+      }
+    }
+  }
+  .join-section {
+    .container {
+      .join-row {
+        .join-content {
+          .join-form {
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+}

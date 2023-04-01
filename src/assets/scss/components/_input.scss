@@ -1,0 +1,21 @@
+.formInp {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #252525;
+  filter: none;
+  font-size: 18px;
+  font-weight: 200;
+  height: 56px;
+  padding: 0 10px 0 15px;
+  width: 100%;
+  border-radius: 1px;
+  font-family: Heebo;
+  line-height: 1.42857;
+  vertical-align: baseline;
+  &.error {
+    border: 1px solid red;
+  }
+  &.success {
+    border: 1px solid lime;
+  }
+}
