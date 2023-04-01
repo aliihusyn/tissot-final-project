@@ -41,7 +41,6 @@ const Products = () => {
                     price={product.price}
                     type={product.type}
                   />
-                  {/* <button onClick={() =>{console.log(product)}}>add</button> */}
                 </Link>
               );
             })}

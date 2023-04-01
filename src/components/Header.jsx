@@ -287,22 +287,22 @@ const Header = () => {
                       <ul className="categories">
                         <h3 className="sub-title">Categories</h3>
                         <li className="category-title">
-                          <Link>T-Touch</Link>
+                          <Link to="/products">T-Touch</Link>
                         </li>
                         <li className="category-title">
                           <Link to="/products">Classic</Link>
                         </li>
                         <li className="category-title">
-                          <Link>Sport</Link>
+                          <Link to="/products">Sport</Link>
                         </li>
                         <li className="category-title">
-                          <Link>Heritage</Link>
+                          <Link to="/products">Heritage</Link>
                         </li>
                         <li className="category-title">
-                          <Link>Pocket</Link>
+                          <Link to="/products">Pocket</Link>
                         </li>
                         <li className="category-title">
-                          <Link>Gold</Link>
+                          <Link to="/products">Gold</Link>
                         </li>
                       </ul>
                     </div>
@@ -310,28 +310,28 @@ const Header = () => {
                       <h3 className="sub-title">Selections</h3>
                       <ul className="category-selections">
                         <li className="selection-title">
-                          <Link>New</Link>
+                          <Link to="/products">New</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Gift-ideas</Link>
+                          <Link to="/products">Gift-ideas</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Special collections</Link>
+                          <Link to="/products">Special collections</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Iconics</Link>
+                          <Link to="/products">Iconics</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Powermatic 80 movement</Link>
+                          <Link to="/products">Powermatic 80 movement</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Diamonds</Link>
+                          <Link to="/products">Diamonds</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Nba watches</Link>
+                          <Link to="/products">Nba watches</Link>
                         </li>
                         <li className="selection-title">
-                          <Link>Motogp watches</Link>
+                          <Link to="/products">Motogp watches</Link>
                         </li>
                       </ul>
                     </div>

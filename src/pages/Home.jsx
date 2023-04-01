@@ -613,9 +613,9 @@ const Home = () => {
                     onBlur={() => setLabel("")}
                   />
                 </div>
-                <div className="join-button">
+                <Link to="/register" className="join-button">
                   <Button className="join-btn btn">submit</Button>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
